@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ithaca Zoo</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="styles/site.css">
+  <script src="scripts/jquery-3.5.1.js" type="text/javascript"></script>
+  <script src="scripts/validation.js" type="text/javascript" async></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a class="top" href="index.html"><img alt="Ithaca Zoo Logo" src="images/zoo-logo.png"/></a>
+      <a href="index.html"><span class="top">The Ithaca Zoo</span></a>
+    </div>
+    <nav>
+      <ul>
+        <li class="top"><a href="index.html">Home</a></li>
+        <li class="top"><a href="news.html">Latest News</a></li>
+        <li class="top"><a href="animals.html">Our Animals</a></li>
+        <li class="top"><a href="education.html">Resources</a></li>
+      </ul>
+    </nav>
+    <h1>Welcome to the Ithaca Zoo</h1>
+  </header>
+
+  <div class="main">
+    <article>
+      <p>
+        We are a non-profit, home to over 200 animals. We are committed to promoting the advancement of animal care and conservation. As you explore the different habitats and animal species, we hope you will learn more about our mission and join us in goal of ending animal extinction and helping the Earth.
+      </p>
+    </article>
+    <hr>
+
+    <h2>Explore Your Zoo</h2>
+
+    <div id="quick_links">
+      <div class="shortcut">
+        <figure>
+          <a href="education.html"><img alt="People Walking" src="images/walking.jpg"/></a>
+        </figure>
+        <a href="education.html"><h4>Make it an Adventure</h4></a>
+        <p>How can I make my zoo experience better? Stop by information.</p>
+      </div>
+      <div class="shortcut">
+        <figure>
+          <a href="news.html#wei_wei"><img alt="Wei Wei, the baby panda" src="images/panda-square.jpg"/></a>
+        </figure>
+        <a href="news.html#wei_wei"><h4>Welcome to the Family!</h4></a>
+        <p>Learn about the newest addition to the Ithaca Zoo Family.</p>
+      </div>
+      <div class="shortcut">
+        <figure>
+          <a href="news.html#tigger"><img alt="Tigger, the Tiger" src="images/tiger-square.jpg"/></a>
+        </figure>
+        <a href="news.html#tigger"><h4>This Month's Spotlight</h4></a>
+        <p>Meet Tigger, the Tiger, this month's spotlight animal.</p>
+      </div>
+    </div>
+
+    <article>
+      <h2>Visitor Info</h2>
+      <p>
+        We are located at 123 Imagination Street in Ithaca, NY.
+        We are open every day of the year, including holidays, from 8AM - 8PM.
+        We have a free parking lot located at the front of the park. Please call ahead if you have a bus or oversized vehicle (vans not including mini-vans, trailers, etc.)
+      </p>
+
+      <section>
+        <h3>Tickets</h3>
+        <ul>
+          <li>Adults (Aged 12 and up) are $40 for admission.</li>
+          <li>Children (Aged 3 to 11) are $25 for admission.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Pre-Order Tickets for Express Pick-up</h3>
+
+        <form id="ticketForm" method="post" action="https://www.cs.cornell.edu/courses/cs1300/2020fa/submit.php" novalidate>
+
+          <div id="userNameFeedback" class="formFeedback hidden">∗ Please provide a name for pick-up.</div>
+          <div class="labelComponentPair">
+            <label for="userName">Name: </label>
+            <input id="userName" name="userName" required/>
+          </div>
+
+          <div id="emailFeedback" class="formFeedback hidden">∗ Please enter a valid email address.</div>
+          <div class="labelComponentPair">
+            <label for="userEmail">Email: </label>
+            <input type="email" id="userEmail" name="userEmail" required/>
+          </div>
+
+          <div id="ticketsFeedback" class="formFeedback hidden">∗ You must pre-order at least 1 ticket.</div>
+          <div class="labelComponentPair">
+            <label for="numTickets">Number of Tickets: </label>
+            <input type="number" id="numTickets" name="numTickets" value="1" min="1" required/>
+          </div>
+
+          <div class="labelComponentPair">
+            <label for="pickupLocation">Pickup Location: </label>
+            <select id="pickupLocation" name="pickupLocation">
+              <option value="north">North Entrance</option>
+              <option value="east" selected>East Entrance</option>
+              <option value="downtown">Downtown Ithaca Office</option>
+            </select>
+          </div>
+
+          <button type="submit" class="submit">Pre-Order</button>
+        </form>
+      </section>
+
+    </article>
+  </div>
+
+  <footer>
+    <p>Copyright 2018 Ithaca Zoo</p>
+  </footer>
+</body>
+</html>

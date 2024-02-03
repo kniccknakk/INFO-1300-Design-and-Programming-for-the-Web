@@ -1,0 +1,240 @@
+body {
+  background-color: #212426;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #52361b;
+  width: 100%;
+  text-align: center;
+}
+
+header a img {
+  height: 90px;
+  padding: 5px 10px 0 10px;
+}
+
+.logo, nav {
+  display: inline-block;
+}
+
+nav ul {
+  font-variant: all-small-caps;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5px 0 5px 10px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+.logo a {
+  font-variant: small-caps;
+  text-decoration: none;
+  font-size: 36px;
+  padding-top: 5px;
+}
+
+.top {
+  text-decoration: none;
+  text-shadow: 0 0 5px #cc9900, 0 0 5px #cc9900;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.top a {
+  width: 300px;
+  text-decoration: none;
+  text-shadow: 0 0 5px #cc9900, 0 0 5px #cc9900;
+  letter-spacing: 2px;
+  color: white;
+  margin: 10px 20px;
+  padding: 0 0 7px 0;
+}
+
+span.top {
+  text-shadow: 0 0 5px black, 0 0 5px black;
+}
+
+.top img {
+  width: 90px;
+}
+
+main {
+  display: flex;
+  background-color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 35px;
+}
+
+h1 {
+  flex-basis: 100%;
+  text-align: center;
+  text-shadow: 0 0 5px black, 0 0 5px black;
+  font-size: 42px;
+  font-variant: all-small-caps;
+  letter-spacing: 1px;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-variant: small-caps;
+  color: #cc9900;
+  padding-top: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.order_form {
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.menu_images img {
+  width: 250px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: "Gotham Book", sans-serif;
+  font-variant: small-caps;
+  font-size: 18px;
+  color: #212426;
+}
+
+input {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #52361b;
+  font-family: "Gotham", sans-serif;
+  font-size: 14px;
+}
+
+.order_item {
+  margin-top: 10px;
+  width: 25%;
+  text-align: center;
+}
+
+.order_item input {
+  width: 60px;
+}
+
+.pick_up {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.pick_up div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#date {
+  width: 150px;
+}
+
+#time {
+  width: 110px;
+}
+
+.radio {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.radio input {
+  width: auto;
+  margin-right: 10px;
+}
+
+.radio label {
+  margin-right: 40px;
+}
+
+button {
+  margin: 10px 0;
+  align-self: flex-end;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #52361b;
+  font-family: "Gotham Book", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #52361b;
+  background-color: white;
+}
+
+button:hover {
+  color: white;
+  background-color: #52361b;
+  cursor: pointer;
+}
+
+.error_message {
+  padding-left: 5px;
+  border-left: 1px #d73232 solid;
+  font-size: 14px;
+  color: #d73232;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.note {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+th, td {
+  padding: 7px 10px 10px 10px;
+}
+
+.input_name {
+  font-variant: small-caps;
+}
+
+th {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 90%;
+  border-bottom: 2px solid #111111;
+  border-top: 1px solid #999999;
+  text-align: left;
+}
+
+table > tbody > tr:nth-of-type(even) {
+  background-color: #efefef;
+}
+
+table > tbody > tr:hover {
+  background-color: #c3e6e5;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+  background-color: #52361b;
+  color: white;
+  padding: 10px 0;
+  clear: left;
+}
