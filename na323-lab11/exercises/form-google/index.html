@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Niteclub - Home</title>
+
+  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all">
+
+  <!-- Load jQuery -->
+  <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
+  <!-- Load validation -->
+  <script src="scripts/clientValidation.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div class="mainContent">
+    <header>
+      <h1>Niteclub</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li class="navItem"><a href="index.html">Home</a></li>
+        <li class="navItem"><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+
+    <div class="centerPane">
+      <h1>Home</h1>
+
+      <h2>Niteclub Isn't Just a Club - It's an Experience</h2>
+      <p>
+        If you live to party, you won't want to miss Niteclub.
+      </p>
+
+      <h2>Sign up for early access now!</h2>
+
+      <form method="post" action="submitAndEmailGmail.php" id="mainForm" novalidate>
+        <div class="labelAndInputHolder">
+          <div class="labelHolder">
+            <label for="userEmail">Email: </label>
+          </div>
+          <div class="inputHolder">
+            <input type="email" id="userEmail" name="userEmail" placeholder="Your Email" required>
+          </div>
+          <span class="errorContainer hidden" id="emailErrorNoEmail">
+            Please enter an email address.
+          </span>
+          <span class="errorContainer hidden" id="emailErrorInvalEmail">
+            This email address is invalid. Please enter a valid email.
+          </span>
+        </div>
+
+        <div>
+          <button type="submit" class="submit">Submit</button>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+</body>
+
+</html>
