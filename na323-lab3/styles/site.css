@@ -1,0 +1,42 @@
+body {
+  background-color: #c3d4cf;
+  font-family: sans-serif;
+  line-height: 1.4;
+  font-stretch: normal;
+}
+
+h1 {
+  color: black;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+h2 {
+  color: black;
+  text-decoration: underline;
+}
+
+p {
+  color: black;
+  background-color: #c3d4cf;
+  border: 2px solid #bdbdbd;
+  padding: 15px;
+  font-size: 1.2em;
+}
+
+li {
+  color: black;
+  font-variant: normal;
+}
+
+em {
+  font-weight: bold;
+  color: #9518a3;
+}
+
+
+li>a {
+  color: #c47911;
+  font-weight: bolder;
+  font-style: italic;
+}
