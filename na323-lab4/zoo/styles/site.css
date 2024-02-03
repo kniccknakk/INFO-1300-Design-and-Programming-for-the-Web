@@ -1,0 +1,14 @@
+nav{
+  display: flex;
+}
+
+nav li { display: inline-flex;
+justify-content: space-around;
+border: 2px;
+border-style: dashed;
+padding: 5px;
+margin: 5px;
+}
+
+nav li a {text-decoration: none;
+}
