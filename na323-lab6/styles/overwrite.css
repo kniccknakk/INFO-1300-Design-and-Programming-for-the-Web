@@ -1,0 +1,16 @@
+/* desktop */
+html {
+  font-family: sans-serif;
+
+  background-color: #dbfbf1;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+
+  max-width: 800px;
+  margin: 0 auto;
+}

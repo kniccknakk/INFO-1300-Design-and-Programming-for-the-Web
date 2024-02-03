@@ -1,0 +1,19 @@
+/* common */
+html {
+  font-family: sans-serif;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+}
+
+/* desktop */
+@media (min-width: 600px) {
+  /* TODO: desktop specific CSS */
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  /* TODO: mobile specific CSS */
+}
